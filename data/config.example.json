@@ -1,0 +1,7 @@
+{
+  "provider": "ollama",
+  "model": "qwen2.5:7b",
+  "vision_model": "llava:v1.6",
+  "ollama_url": "http://localhost:11434",
+  "api_key": null
+}

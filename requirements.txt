@@ -1,0 +1,17 @@
+# Desktop Automation Agent
+# Install: pip install -r requirements.txt
+
+# API Server
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# HTTP Requests (for LLM APIs)
+requests>=2.31.0
+
+# Desktop Automation
+pyautogui>=0.9.54
+Pillow>=10.0.0
+
+# Optional: Voice Control
+# pip install SpeechRecognition pyaudio

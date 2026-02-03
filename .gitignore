@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Sensitive data - NEVER COMMIT
+data/config.json
+data/credentials.encrypted
+data/secret.key
+data/clients_db.json
+data/clients_cache.json
+data/knowledge_base.json
+data/meetings.json
+data/tasks.json
+data/invoice_config.json
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*_BACKUP.py
+
+# Test files
+oeplay_test.txt
+Test.xlsx
+Test.csv
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Workflows (may contain sensitive automation)
+workflows/
+
+# Generated exports
+data/exports/
+
+# Removed from repo (accounting-specific)
+ACCOUNTING_TOOLS_GUIDE.md
+UK_ACCOUNTING_TOOLS_GUIDE.md
+UK_QUICK_START.md
+UK_WORKFLOW_AUTOMATION_GUIDE.md
+uk_tax_calculator.py
+bookkeeping.py
+bank_import.py
+invoice_integration.py
+deadline_tracker.py
+deadline_integration.py
+
+# Old versions (V1)
+app.py
+chat_widget.py
+V1_VS_V2_COMPARISON.md
+
+# Internal/draft docs
+TWEET_DRAFTS.md
+Recommendations Going Forward.md
+IMPROVEMENT_GUIDE.md
+INSTALLATION_FROM_SCRATCH.md
+INSTALLATION.md
+KNOWLEDGE_BASE_GUIDE.md
+MASTER_OVERVIEW.md
+MEMORY_AND_PERFORMANCE.md
+MULTI_PC_DEPLOYMENT.md
+PRACTICAL_RECOMMENDATIONS.md
+QUICK_INSTALL_CHECKLIST.md
+QUICK_START_ADAPTIVE.md
+FILE_MANIFEST.md
+SMART_FILE_HANDLING.md
+
+# Removed utilities (keeping repo minimal)
+Dockerfile
+docker-compose.yml
+adaptive_config.py
+autonomous_agent.py
+chat_widget_v2.py
+credential_manager.py
+dashboard_ui.py
+document_ocr_processor.py
+excel_advanced.py
+excel_powerquery_automation.py
+file_organizer.py
+google_ai_apps.py
+knowledge_base.py
+meeting_manager.py
+outlook_timesheet_automation.py
+scheduler.py
+smart_file_finder.py
+task_manager.py
+whatsapp_automation.py
+workflow_recorder.py
+
+# Setup scripts
+setup.bat
+auto_setup.bat
+complete_setup.bat
